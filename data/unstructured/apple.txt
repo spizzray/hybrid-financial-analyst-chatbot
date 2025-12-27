@@ -1,0 +1,364 @@
+Apple Q4 2023 Earnings Call Transcript
+Moomoo News
+· 
+Nov 3, 2023 12:12
+ ·
+Conference Call
+AAPL
+-0.99%
+Company Management
+
+Luca Maestri - CFO
+Suhasini Chandramouli - Director of Investor Relations
+Tim Cook - CEO
+Analysts
+
+Aaron Rakers - Wells Fargo Securities
+Amit Daryanani - Evercore ISI
+Ben Reitzes - Melius Research
+David Vogt - UBS
+Erik Woodring - Morgan Stanley
+Harsh Kumar - Piper Sandler
+Krish Sankar - TD Cowen
+Michael Ng - Goldman Sachs Group
+Richard Kramer - Arete Research
+Wamsi Mohan - Bank of America
+Operator
+
+Certainly. We will go ahead and take our first question from Mike Ng of Goldman Sachs. Please go ahead.
+
+Michael Ng
+
+Hey. Good afternoon, and thank you very much for the questions. I just have a question on iPhone storage and demand versus iCloud. As demand for storage grows, are you seeing a mix-shift towards higher storage iPhone models or are consumers mostly opting for the same because of increased uptake of iCloud+? What are some of the strategic and financial considerations here and trade-offs, as you think about the mix shift towards higher storage models versus iCloud penetration? Thanks.
+
+Tim Cook
+
+Michael, it's Tim. As you probably know, we started the line with the iPhone Pro Max at 256, and so we are seeing a different mix, if you will, this year than last year. Outside of that, not significant changes.
+
+Michael Ng
+
+Great. Thank you. And as a separate follow-up, I was just wondering if you could talk a little bit about the market conditions on notebooks and desktops, and then any color that you can share regarding the timing of the Mac -- M3 MacBook Pros this year versus the M2 earlier in the calendar year? Thank you.
+
+Tim Cook
+
+Yeah. We're thrilled to have announced the M3 lineup and get the new MacBook Pro, the new iMac out there. We couldn't be more excited about it. We -- as Luca said, with the lineup that we've got and the compare issue that we don't have during Q1, we anticipate a significant acceleration in the Mac space for Q1. To just repeat a little bit about the circumstances of the performance last quarter, in the year-ago June quarter, we had a factory disruption that lasted several weeks. The pent-up demand that resulted from that was filled in the September quarter, and that made the September quarter not only a record, but a substantial record. And obviously, we're now comparing against that for '23 and so that, I wouldn't look at the negative 34% as representative of the underlying business performance. It's sort of the net of it.
+
+Michael Ng
+
+Excellent. That's very clear. Thank you, Tim.
+
+Tim Cook
+
+Yeah.
+
+Suhasini Chandramouli
+
+All right. Thanks, Mike. Can we have the next question, please?
+
+Operator
+
+Our next question is from Aaron Rakers with Wells Fargo. Please go ahead.
+
+Aaron Rakers
+
+Yeah. Thanks for taking the question and congratulations on the execution in the quarter. I'm curious, if you could help us characterize what the demand environment you're seeing in China looks like. How has the reception been to the iPhone 15? And kind of similar question to the prior one, how would you characterize the mix within China as you go through this current product cycle? And I have a follow-up.
+
+Tim Cook
+
+Yeah. If you look at how we did in Greater China for the quarter, we came in at, on a revenue basis, minus 2. But one thing to keep in mind here is that the FX impact was nearly 6 points. So we grew in constant currency. And underneath that, if you look at the different -- the categories, iPhone actually set a September quarter record in mainland China. And the -- what pulled down the performance was a combination, largely of Mac and iPad.
+
+Services also grew during the quarter and the Mac and iPad suffered from the same issues that the company did with the compare issues to factory disruptions in Q3 that were filled subsequently in Q4 of '22. We had the -- in addition to that, we had the top four selling phones in urban China for last year, and I was -- I just took a trip over there and could not be more excited about the interactions I had with the customers and employees and others.
+
+Aaron Rakers
+
+Yeah. And then, as a quick follow-up, I'm curious as we move towards more of an inflationary component pricing environment. Luca, how do we think about that effect? How you're thinking about the gross margin at the product level, as maybe component pricing starts to turn, what's been clearly very favorable over the last several quarters to more of an inflationary environment? Thank you.
+
+Luca Maestri
+
+Well, as you've seen from our results in Q4 and the guidance for Q1, we're obviously experiencing very strong levels of gross margin. The 45.2% was a record for the September quarter. And then, the guidance for Q1 is obviously strong at 45% to 46%. Our gross margins are affected by multiple factors. Obviously, the commodity environment is one of them, as you mentioned. It's been a good environment in recent quarters.
+
+But equally important is the mix of what we sell. And obviously, growth in Services for us is favorable, and that has helped our company gross margin. Foreign exchange, on the other hand, has been a drag for us for several quarters, given the strength of the dollar. We don't provide guidance past the December quarter, which is a very important one for us because it's the beginning of the product cycle for many products. And so we feel very good, very confident about, this coming year, and I think the gross margin guidance reflects that.
+
+Aaron Rakers
+
+Thank you.
+
+Suhasini Chandramouli
+
+Thanks, Aaron. Can we have the next question, please?
+
+Operator
+
+Our next question is from Erik Woodring with Morgan Stanley. Please go ahead.
+
+Erik Woodring
+
+Awesome. Thank you very much for taking my questions. Maybe if I start, Luca, I know that the iPhone 15 Pro and Pro Max are constrained today, but I think some of your comments suggests you should be back to supply demand balance before quarter end. So, I guess, my question is, does your December quarter revenue guidance account for any supply constraints? And if so, is there any way to kind of quantify how much supply would be limiting your December quarter revenue performance? And then, I have a follow-up. Thank you.
+
+Luca Maestri
+
+Yes. It's correct. We are constrained today on iPhone 15 Pro and iPhone 15 Pro Max. We're working very hard to get the product in the hands of all the customers that have ordered it. We expect, as of today, that we're going to be in supply demand balance by the end of the quarter. So the guidance reflects that.
+
+Erik Woodring
+
+Okay, very clear. Thanks. And then, maybe for you and Tim. You guys have been on the leading end of -- edge of innovation across hardware, software, silicon, services. And I'm sure there's plenty of technology in kind of longer-term projects that you're investing in. How should we think about your capital intensity as we look to fiscal year '24, just given over the last few years, CapEx as a percentage of revenue had been relatively low compared to the eight years prior? So should we expect a step-up or kind of similar capital intensity? And what are the more notable moving pieces, if any, that we should be thinking about? Thanks.
+
+Luca Maestri
+
+Well, the big areas of investment for us are tooling and equipment for manufacturing plants. Our investments in data centers and our investments in our own facilities, both corporate facilities and retail stores. And so, both for the tooling in our plants and our data center investments, we tend to have a bit of a hybrid model where we share some of the investments with our partners and suppliers and so maybe that's why you see sometimes a bit of variability. But over the last few years, we've made all the investments that we needed to make. And obviously, we're planning to make all the investments that we believe are needed and appropriate in order to continue to innovate.
+
+Erik Woodring
+
+Great. Thanks so much for the color, guys.
+
+Suhasini Chandramouli
+
+Thanks, Eric. Can we have the next question, please?
+
+Operator
+
+Our next question is from David Vogt with UBS. Please go ahead.
+
+David Vogt
+
+Great. Thanks, guys for taking my question. I know you covered China. I want to pivot to the US for a second. Obviously, iPhone and the business looks like it returned to growth in the quarter. But it's still relatively softer kind of where I thought it would be at this point in the cycle and some of the U.S. carriers obviously haven't been that particularly aggressive in promoting upgrades. So just wanted to kind of get a sense, first, what you're seeing from your partners in the U.S. kind of currently and going forward and what do you expect?
+
+And then, second, Luca, on the margins, I mean, is it fair to say that the mix in Q1 from a product versus services dynamic is kind of the key driver of the better gross margin guide as a whole relative to, let's say, the December quarter? Or is there anything else? I know you mentioned there's a lot of moving pieces, but is that the primary driver of the uplift in the margin? Thanks.
+
+Tim Cook
+
+On the U.S. carriers and the U.S. business in general, it's really too early to call the iPhone cycle, particularly with the constraint around the Pro and the Pro Max and the U.S. tends to do quite well with those products. It's really too early to tell what the upgrade rates will be and what the switcher rates will be.
+
+Luca Maestri
+
+On the margin side, if I understood your question correctly about the December quarter guidance, keep in mind that actually December is the quarter where our products business is tends to be very heavy because of the holiday season. And so the services gross margins that are accretive to total company had an impact, but not as meaningful as other quarters during the year and so I think that the main drivers of the guidance that we provided are the fact that we are seeing improved costs, and improved mix on our -- on the product side of the business, partially offset by foreign exchange, which continues to be a drag, both sequentially and on a year-over-year basis.
+
+David Vogt
+
+Got it. So the weakness in iPad and Wearables are less of an impact on sort of the margin trajectory in the December quarter?
+
+Luca Maestri
+
+That's correct.
+
+David Vogt
+
+I guess?
+
+Luca Maestri
+
+That's correct.
+
+David Vogt
+
+Got it. Thanks, Luca.
+
+Suhasini Chandramouli
+
+All right. Thanks, David. We'll take our next question, please.
+
+Operator
+
+Our next question is from Amit Daryanani with Evercore. Please go ahead.
+
+Amit Daryanani
+
+Yeah. Good afternoon. Thanks for taking my question. I have two as well. I guess, first off, just the Services growth rate, there's a tremendous acceleration I think in September quarter, the 16% growth. And it sounds like it’s going to hold there pretty well into December. Can you just talk about what is driving this acceleration? Are there a couple of products that have just stepped up in a very meaningful way? Just maybe flush out like what is driving this acceleration because it's fairly notable compared to what you've been seeing in the last few quarters.
+
+Luca Maestri
+
+We had a really strong quarter across the border, Amit, because both geographically and from a product category standpoint, we saw very significant growth, I mentioned the records on a geographic basis. And from a category standpoint, literally, we set records in each one of the big categories. We had all-time record for App Store, for advertising, for cloud, video, AppleCare, payments and a September quarter record for Music. So it's hard to pick, one in particular because they all did well.
+
+And really then, we step back and we think about why is it that our Services business is doing well and it's because we have an installed base of customers that continues to grow at a very nice space and the engagement in our ecosystem continues to grow. We have more transacting accounts, we have more paid accounts, we have more subscriptions on the platform and we continue to add. We continue to add content and features. We're adding a lot of content on TV+, new games on Apple Arcade, new features, new storage plans for iCloud. So it's a combination of all these things and the fact that the engagement in the ecosystem is improving, and therefore, it benefits every service category.
+
+Amit Daryanani
+
+Got it. That's really helpful. And then, maybe if I could ask you about Vision Pro, which I believe is supposed to be launched more broadly sometime in 2024, in the early part of the year. I'm curious how different do you think the launch and the consumer education of this product or a new category will be versus other things like AirPods or Apple Watch that you've done. And then, perhaps any themes I think that's set out to you from the developers that have been able to use this and the developer labs, what feedback have you gotten from them?
+
+Tim Cook
+
+Yeah. That's a great question. There is a tremendous amount of excitement around the Vision Pro and we're -- we've been very happy to share it with developers, and we have developer labs set up in different parts of the world so that they can actually get their hands on it and are working on apps and I've been fortunate enough to see a number of those. And there is some real blow away kinds of things that are coming out, and so that all looks good.
+
+To answer your question about is it similar to AirPods or Apple Watch, I would say, no. There's never been a product like the Vision Pro. And so, we're purposely bringing it out in our stores only, so we can really put a great deal of attention on the last mile of it. We'll be offering demos in the stores and it will be very different process than the -- a normal grab-and-go kind of process.
+
+Amit Daryanani
+
+Perfect. Thank you.
+
+Suhasini Chandramouli
+
+Thanks, Amit. We'll take the next question, please.
+
+Operator
+
+Our next question is from Harsh Kumar with Piper Sandler. Please go ahead.
+
+Harsh Kumar
+
+Yeah. Hey, thanks for the question and congratulations on tremendous execution in a very tough macro. Actually, Tim, the last question is a perfect segue here, given what you are doing with your Vision Pro. So lots of companies are experimenting with generative AI. I'm curious about what kind of efforts you have. I'm sure there are segues into Pro Vision that you have, but I was curious about if you can give us a glimpse on how you might be able to monetize some of these efforts of generative AI.
+
+Tim Cook
+
+If you kind of zoom out and look at what we've done on AI and machine learning and how we've used it, we view AI and machine learning as fundamental technologies, and they're integral to virtually every product that we ship. And so just recently, when we shipped iOS 17, it had features like Personal Voice and Live Voicemail. AI is at the heart of these features. And then, you can go all the way to then lifesaving features on the launch end of phone like fall detection, crash detection, ECG on the watch. These would not be possible without AI.
+
+And so, we don't label them as such, if you will. We label them as to what their consumer benefit is. But at the fundamental technology behind it is AI and machine learning. In terms of generative AI, we have -- obviously, we have work going on. I'm not going to get into details about what it is, because -- as you know, we don't -- we really don't do that. But you can bet that we're investing, we're investing quite a bit, we're going to do it responsibly and it will -- you will see product advancements over time that where the -- those technologies are at the heart of them.
+
+Harsh Kumar
+
+Thanks, Tim. Very clear. And for my follow-up, I had a philosophical question. So, you guys always try to provide the best experience for consumers. To that end, I think, over the last decade you in-sourced a lot of important chips in your phones, in your Macs, iPads, so on and so forth. And that was, I think, a function that ARM wasn't around in the industry from a merchant angle. But now, we see these the silicon guys, the chip guys moving to ARM architecture.
+
+So my question to you is, has the move to internal silicon been economically profitable proposition for Apple? Or is it -- or is it a strategic one, where you simply need to own this and it's vital to your products for the consumer experience or maybe there's a path back to chip vendors at some point in time?
+
+Tim Cook
+
+It's really enabled us to build products that we could not build without doing it ourselves. And as you know, we like to own the primary technologies in the products that we ship and arguably, the silicon is at the heart of the primary technologies, and so, no, I don't see going back. I am happier today than I was yesterday, than I was last week that we made the transition that we've made, and I see that benefit every day of it.
+
+Harsh Kumar
+
+Thanks, Tim.
+
+Tim Cook
+
+Yeah.
+
+Suhasini Chandramouli
+
+Thank you, Harsh. We'll take the next question, please.
+
+Operator
+
+Our next question is from Wamsi Mohan from Bank of America. Please go ahead.
+
+Wamsi Mohan
+
+Yes. Thank you so much. Tim, over the last decade, pretty much you've gained a lot of share in China. As you look, your -- some of the domestic players are starting to re-emerge, especially in the high-end phone space. I know you touched on China. But how would you see Apple's positioning and opportunity for continued share gains, particularly in China? And how was the linearity in China from a demand perspective? And I have a follow-up, please.
+
+Tim Cook
+
+In the September quarter, we set an iPhone record -- revenue record in China and we're very proud of that and we obviously grew. The market predictions that I've seen, we've had the market contracting. And so if that's -- if those are correct, then we gained share last quarter. And so we are very proud of that, I don't know what every quarter will hold. And obviously, we just give a bit of color on the current quarter. But over the long term, I view China as an incredibly important market and I'm very optimistic about it.
+
+Wamsi Mohan
+
+Okay. Thanks, Tim. And as a follow-up, you obviously had a great Services quarter and part of your Services business has these licensing relationships with research partners, where you serve a very important distribution function for them. Can you talk about how you think about these relationships and potentially some of the options maybe Apple has to mitigate some of the risks, given some of the scrutiny on with some of the research partners? Thank you so much.
+
+Luca Maestri
+
+They are important relationships. And as you know, we don't get into our commercial relationships in the call. I see them as important and we make decisions that are in the best interest of our users or what we feel is in the best interest of our users. And that's kind of what we've done in the past and how we've -- how we'll run the show in the future as well.
+
+Wamsi Mohan
+
+Okay. Thank you, Tim.
+
+Suhasini Chandramouli
+
+Thank you, Wamsi. Can we have the next question, please.
+
+Operator
+
+Our next question comes from Krish Sankar with TD Cowen. Please go ahead.
+
+Krish Sankar
+
+Yeah. Hi. Thanks for taking the question. I had two of them too. First one, Luca, thanks for the color on gross margin. And when I look at it over the last four quarters, even if on a year-over-year basis revenue declined, the gross margins have improved. And I understand Services definitely helped. I'm just kind of curious, when you look at on a go forward basis, are most of the big step functions and cost reductions like the Mac Silicon conversion, et cetera, that are done or is there more room for margin expansion from here? And then, I had a follow-up.
+
+Luca Maestri
+
+Well, on the product side, as you know, we -- when we launch new products, the cost structures of those products tend to be higher than the products that they replace. It happens because we are always adding new technologies, new features, and then, we worked through the cost curve over the lifecycle of the product and we tend to get benefits as time goes by. The guidance that we provided for December reflects all that and so we're starting from a better position than a year ago or than, in the past, in general.
+
+There are other factors that play a role. For example, the mix of products that we sell. Not every product has the same gross margin profile, and so our guidance, our results are reflective of that. And also, within a specific product category, a lot depends on the kind of models that we sell because they have different margin profiles. I think one of the things that we've done well over the last few years is to offer more affordability solutions to our customers in the form of instalment plans, trading options, and spend -- low-cost financing in general.
+
+And what that has accomplished is reduced the affordability threshold for our customers and therefore, they can, buy at the top of our product ranges. That has been a big factor in the reason for our margin expansion. We don't provide guidance or color past the current quarter because there's so many different variables that affect gross margins, but we obviously feel very good about the trajectory that we've had in 2023 and now, the guidance that we provide for the beginning of our fiscal '24. And we need some of these things because, obviously, their foreign exchange environment has been difficult and has been a bit of a drag for us. But net-net, we're very pleased where we are.
+
+Krish Sankar
+
+Got it. Thanks for that, Luca. And then, I have a follow-up for Tim. Obviously, you're seeing amazing momentum in India. I'm just kind of curious how do you look at -- when you look at the India growth opportunity on these hardware units, how to think about ASP relative to that versus like the rest of the geographies? And is there a way to compare or contrast India, growth momentum versus China maybe a decade ago or so at the same point in the rollout of, the share gains in that geography?
+
+Tim Cook
+
+Yeah. It's a great question. We had an all-time revenue record in India. We grew very strong double-digits. It's an incredibly exciting market for us and a major focus of ours. We have low share in a large market, and so it would seem there's a lot of headroom there. The ASPs, I haven't looked at them most recently, but I'm sure that they're lower than the worldwide. But that doesn't bother us at all. It just -- and in terms of the similarity, I would say, each country has its own journey.
+
+And I wouldn't want to play the comparison game. But we see an extraordinary market, a lot of people moving into the middle class, distribution is getting better, lots of positives. We put two retail stores there, as you know. They're doing better than we anticipated. It's still early going, but they're off to a good start and I couldn't be happier with how things are going at the moment.
+
+Krish Sankar
+
+Thanks, Tim.
+
+Suhasini Chandramouli
+
+Thank you, Krish. We'll now take our next question, please.
+
+Operator
+
+Our next question is from Ben Reitzes with Melius Research. Please go ahead.
+
+Ben Reitzes
+
+Hey. Thanks a lot. I appreciate the question. Tim, I appreciate all your commentary around China. It was great to kind of hear about the growth potential there, your optimism. I wanted to also ask about the supply chain and where is your priority? Do you have a priority to diversify your supply chain? How do you feel about Apple's supply chain around the world? And in particular, what do you think about further investments in the U.S. as well?
+
+Tim Cook
+
+Our supply chain is truly global, and so we're investing all over the world, including in the United States, we were very focused on advanced manufacturing for the U.S. and have worked on a number of different projects in the U.S., whether that's our venture with Corning on the glass or Face ID module or semiconductors. And so all of these are our advanced manufacturing and I think exactly the kinds of things that the U.S. would be and are very, very good at. We also invested in other regions of the world and we're continually optimizing the chain. And so we -- the moment we learned something that didn't work exactly right, we are tweaking it. And so we're going to continue to do that. But at the end of day, it will still be a global supply chain.
+
+Ben Reitzes
+
+Got it. Thanks.
+
+Tim Cook
+
+Yeah.
+
+Ben Reitzes
+
+Next one for Luca. Just really quick on the extra week dynamic. There was also last year an issue with the iPhone production, where there was the COVID lockdowns in China. Is it possible to give some color around what that -- I guess, having a normalized supply chain somewhat this year, what that benefit is this year and maybe contrast that with the 7 point hit from the extra week? Thanks a lot.
+
+Luca Maestri
+
+Yeah. Thanks for the question, Ben. I mentioned during the prepared remarks the extra week is 7 points of revenue. We did have disruptions, supply disruptions last year on the phone, on the 14 Pro and Pro Max in the December quarter a year ago. And when we normalize for those two factors, and I said it during the call, we still expect to grow on iPhone. So you take into account the, the loss of the extra week, you compare it with the supply disruptions that are not going to repeat, hopefully, this year. And when you normalize for those two things, we still expect to grow on iPhone.
+
+Ben Reitzes
+
+Thanks a lot everybody. Appreciate it, Luca.
+
+Suhasini Chandramouli
+
+Thank you, Ben. And we'll take the last question now.
+
+Operator
+
+Our last question comes from Richard Kramer with Arete Research. Please go ahead.
+
+Richard Kramer
+
+Thank you very much. Tim, first off, if we look over the past two years, Apple sales are about $18 billion higher and R&D is up by about 8% -- $8 billion or over a third higher. Can you give us a sense of some of the main components or drivers behind that increase in innovation spend? Is it Apple Silicon, is it new products like Vision Pro or is it content to support new services? I think that's one of the top questions investors have. Thanks.
+
+Tim Cook
+
+Sure. It's a number of things, Richard. It's the -- some things I can't talk about, its Vision Pro, it's AI and ML, it's the silicon investment that we're making, the transition with the Mac and other silicon. It's sort of all of those things and -- but I think you would find that the R&D expenditure in the aggregate looks very competitive versus others.
+
+Luca Maestri
+
+And I would add, Richard, on this front. Some of the investments that we're making in R&D are also one of the drivers for the gross margin expansion. So I think it's important to think about it that way.
+
+Richard Kramer
+
+That's great. And Luca, you mentioned -- or Tim mentioned college students choosing Mac. Then, you mentioned the record Services revenue. What other metrics do you think you could provide to help investors understand how Apple measures and increases customer lifetime value, especially when we see a lot of users entering the ecosystem with a relatively lower-priced products or even refurbished devices? So you're growing your ecosystem, but how do you think about growing customer lifetime value over the long run?
+
+Luca Maestri
+
+Well, some of the metrics that I mentioned before, obviously, we look at the installed base of active devices. We see, we want to make sure that, the customers that we acquire remain with us and so we have good visibility over that, and we pay a lot of attention to the behavior of the installed base, both by product and by geography. And then, we look at the daily engagement in the ecosystem. So that's why we pay a lot of attention on things like transacting accounts, paid accounts, we want to see if, in fact, we are able to move our customers from a free model to a paid model over time. That's obviously very, very important for us.
+
+And so, on this, we keep track of all these things and that's -- and then what we do, because I think it's really important is that over time, we add new services and that, obviously, like, for example, the progress that we've made in payments in recent years, very, very important because we've attracted more and more people that are actually now using additional features on our devices and we are able to monetize that, right.
+
+So we take all that into account, we understand what happens when a customer joins us, when they buy a primary device versus a used device, we understand their behavior, in different markets and so on. So we have, I think, pretty good visibility. And I think the progress that we're making in Services, we did $85 billion in the last 12 months. It's -- that's a size of a Fortune 50 and significantly bigger than it was just a couple of years ago.
+
+Richard Kramer
+
+Absolutely. Thanks very much.
+
+Suhasini Chandramouli
+
+Thank you, Richard. A replay of today's call will be available for two weeks on Apple Podcasts, as a webcast on apple.com/investor and via telephone. The number for the telephone replay is 866-583-1035. Please enter confirmation code 0106234 followed by the pound sign. These replays will be available by approximately 5 PM Pacific Time today. Members of the press with additional questions can contact Josh Rosenstock at 408-862-1142 and financial analysts can contact me, Suhasini Chandramouli, with additional questions at 408-974-3123. Thank you again for joining us today.
+
+Operator
+
+Once again, this does conclude today's conference. We do appreciate your participation.

@@ -1,0 +1,22 @@
+# Core Dependencies
+streamlit             # Web UI framework - creates interactive web apps with Python
+google-generativeai     # Google Gemini API - our LLM (Large Language Model)
+
+# Database
+duckdb                 # Fast in-memory SQL database
+
+# Document Processing
+pypdf                  # PDF reading library
+langchain               # Framework for building LLM applications
+langchain-core        # Core LangChain abstractions
+langchain-community   # Community integrations for LangChain
+langchain-text-splitters  # Text splitting utilities (RecursiveCharacterTextSplitter)
+
+# Vector Store & Embeddings
+chromadb               # Vector database - stores document embeddings
+sentence-transformers>=2.2.0   # Creates embeddings (numerical representations of text)
+huggingface_hub>=0.19.0        # Required for sentence-transformers model downloads
+
+# Utilities
+python-dotenv          # Loads environment variables from .env file
+pandas                 # Data manipulation library

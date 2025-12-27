@@ -1,0 +1,29 @@
+# Environment variables (contains API keys - never commit!)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Vector database storage
+chroma_db/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MDs
+CONVERSATION_LOG.md
+setup.sh

@@ -1,0 +1,74 @@
+=== QUICK COPY-PASTE TEST QUESTIONS ===
+
+SQL QUERIES (Database):
+- What is Apple's revenue?
+- What is Microsoft's market cap?
+- Compare the revenue of Apple and Microsoft
+- Which company has the highest P/E ratio?
+- What is the average revenue of all companies?
+- Show me all companies in the technology sector
+- Which companies have revenue over $200 billion?
+
+RAG QUERIES (Documents):
+- What are Microsoft's AI initiatives?
+- What is NVIDIA's AI strategy?
+- What challenges does Apple face?
+- What are the headwinds facing Meta?
+- What is Google's growth strategy?
+
+CONVERSATION MEMORY (Copy these in sequence):
+Test 1:
+  Step 1: What is Apple's revenue?
+  Step 2: What about Microsoft?
+
+Test 2:
+  Step 1: What are Microsoft's AI initiatives?
+  Step 2: What drove that growth?
+
+Test 3:
+  Step 1: What is NVIDIA's revenue?
+  Step 2: What's driving that growth?
+
+ERROR HANDLING:
+- What is Tesla's revenue?
+- What is Apple's profit margin?
+
+COMPLEX QUERIES:
+- Which technology companies have revenue over $300 billion?
+- What is Apple's revenue and what are their AI initiatives?
+
+=== 10-SCREENSHOT OPTIMAL DEMO ===
+
+1. What is Apple's revenue?
+   (Expand "View Sources" - show SQL)
+
+2. Compare revenue of Apple and Microsoft
+   (Show multi-row result)
+
+3. What is the average market cap?
+   (Show aggregation)
+
+4. What are Microsoft's AI initiatives?
+   (Expand "View Sources" - show documents)
+
+5. What challenges does Apple face?
+   (Show strategic insight)
+
+6. Conversation Test:
+   - What is Apple's revenue?
+   - What about Microsoft?
+   (Show 2-message exchange)
+
+7. Conversation Test 2:
+   - What are Microsoft's AI initiatives?
+   - What drove that growth?
+   (Show context memory)
+
+8. Which companies have revenue over $200 billion?
+   (Show filtering)
+
+9. What is Tesla's revenue?
+   (Show error handling)
+
+10. What is NVIDIA's AI strategy?
+    (Show complex RAG response)

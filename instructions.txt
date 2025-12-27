@@ -1,0 +1,72 @@
+Take Home Assignment: Hybrid Financial Analyst Chatbot
+Role: AI Engineer
+Goal: Build a chatbot that answers questions using a hybrid approach: querying a
+structured database (Text-to-SQL) and searching unstructured documents (RAG).
+The Scenario
+You are building an internal tool for financial analysts. They need to quickly access financial
+metrics (from a database) and strategic insights (from annual reports) for major tech
+companies. The chatbot must intelligently decide which data source to use based on the
+user's question.
+Data Sources
+1. Structured Data (DuckDB)
+You will ingest the following CSV data into a DuckDB (or SQLite) in-memory instance. This
+table represents the "Financial Overview."
+Copy the following content into a file named financial_data.csv:
+company_name,ticker,sector,market_cap_billions,pe_ratio,revenue_2023_billions,net_inc
+ome_2023_billions
+Apple Inc.,AAPL,Technology,2900,28.5,383.29,97.00
+Microsoft Corp,MSFT,Technology,3000,35.2,211.91,72.36
+Alphabet Inc.,GOOGL,Technology,1800,24.8,307.39,73.80
+Amazon.com Inc.,AMZN,Consumer Cyclical,1850,60.1,574.78,30.42
+NVIDIA Corp,NVDA,Technology,2200,75.4,60.92,29.76
+Tesla Inc.,TSLA,Consumer Cyclical,550,40.5,96.77,15.00
+Meta Platforms,META,Technology,1200,30.2,134.90,39.10
+2. Unstructured Data (PDFs)
+The chatbot must analyze the strategic outlooks of these companies. Please use the
+following 2023 Earnings Call Transcripts/form 10-K linked below.
+1. Apple (AAPL): Apple Q4 2023 Earnings Transcript (Save as PDF or Text)
+2. Microsoft (MSFT): Microsoft FY23 Q4 Transcript (Save as PDF or Text)
+3. NVIDIA (NVDA): Nvidia Q4 FY24 Form 10-k
+4. Alphabet (GOOGL): Alphabet Q4 2023 Form 10-k
+5. Meta : Meta Q4 2023 Earnings Transcript
+Functional Requirements
+1. 2. 3. Chat Interface: Use Streamlit, Gradio, or a similar framework.
+Hybrid Querying: The user should not need to specify "Search PDF" or "Search DB".
+The system must infer the source.
+Conversation Memory: The user should be able to ask follow-up questions.
+• Example: "What is Microsoft's revenue?" →→ "What drove that growth?"
+4. Traceability: The UI should ideally show where the information came from (e.g.,
+"Queried Database" or "Retrieved from PDF page 3").
+Technical Constraints & Recommendations
+• LLM: Use any free API. We recommend Google Gemini (via Google AI Studio) or
+Groq/HuggingFace free tiers. Do not incur personal costs.
+• Frameworks: LangChain, LlamaIndex, or raw Python (your choice).
+• Database: DuckDB (preferred for simplicity) or SQLite.
+Evaluation Focus
+We are evaluating your ability to integrate systems, not just call an API. We look for:
+1. Routing Logic: How accurately/efficiently do you distinguish between a database
+query and a document search?
+2. Error Handling: What happens if the LLM generates bad SQL? What if the PDF
+answer isn't found?
+3. Code Structure: Is the code modular? Can it be easily extended to 1,000 PDFs or 50
+SQL tables?
+4. Documentation: Clear instructions on how to run the app.
+Submission Instructions
+1. Repository: Provide a link to a public GitHub repository or a Zip file.
+2. README.md:
+a. Setup: Steps to install requirements and run the app (include
+requirements.txt).
+b. Architecture: A brief explanation of your routing logic (e.g., did you use a
+classifier chain, tool calling, or a simple prompt router?).
+c. Assumptions: Any assumptions made about the data or user queries.
+d. Demo: A screenshot or short GIF of the app in action.
+Quick Start Tips (For the Candidate)
+• Don't overcomplicate the vector store. For a few PDFs, a local ChromaDB or
+something similar is good enough.
+• Prompt Engineering: The hardest part will be getting the LLM to write correct SQL for
+DuckDB and when to choose which data source.
+• Sample Questions to Test:
+o "What is the market cap of Tesla?" (SQL)
+o "What are the AI initiatives mentioned by Microsoft?" (RAG)
+o "Compare the revenue of Apple and Microsoft." (SQL)
+o "What are the headwinds facing Apple's growth?" (RAG)
