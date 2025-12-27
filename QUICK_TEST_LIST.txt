@@ -19,7 +19,7 @@ RAG QUERIES (Documents):
 CONVERSATION MEMORY (Copy these in sequence):
 Test 1:
   Step 1: What is Apple's revenue?
-  Step 2: What about Microsoft?
+  Step 2: Compare it to Microsoft's
 
 Test 2:
   Step 1: What are Microsoft's AI initiatives?
