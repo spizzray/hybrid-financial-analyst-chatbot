@@ -68,22 +68,104 @@ A chatbot that intelligently routes questions to either SQL database (for financ
 
 ---
 
-## ⚠️ Important Note on API Quota
+## 📸 Demo Screenshots & System Proof
 
-**For Reviewers/Evaluators:**
-
-I was unable to capture UI screenshots before submission due to Google API quota exhaustion. However, **the system was successfully tested via terminal** and all features work correctly. Below is actual terminal output from successful test runs on December 27, 2024.
+The following screenshots demonstrate all core features of the Hybrid Financial Analyst Chatbot in action.
 
 ---
 
-### ✅ Terminal Test Results (Actual Output)
+### Screenshot 1: Main User Interface
 
-#### Test 1: System Initialization (All Components Working)
+**Clean Streamlit UI with Chat Interface**
+
+![Main UI](screenshots/main_ui.png)
+
+**Shows:**
+- Clean, professional chat interface
+- Sidebar with example questions
+- Information about SQL vs RAG data sources
+- Ready to accept user questions
+
+---
+
+### Screenshot 2: SQL Query - Text-to-SQL Generation
+
+**Question:** "What is Apple's revenue?"
+
+![SQL Query](screenshots/sql_query.png)
+
+**Features Demonstrated:**
+- ✅ **Automatic Routing:** System correctly routes to SQL database
+- ✅ **Text-to-SQL:** Generates correct SQL query: `SELECT revenue_2023_billions FROM financial_data WHERE company_name = 'Apple Inc.'`
+- ✅ **Query Execution:** Returns accurate result: $383.29 billion
+- ✅ **Traceability:** "View Sources" shows the exact SQL query executed
+
+**Terminal Output:**
+```bash
+🧭 Route: SQL
+📝 Reasoning: Question requires structured numerical data from database
+🔄 Executing SQL path...
+🔍 Generated SQL: SELECT revenue_2023_billions FROM financial_data WHERE company_name = 'Apple Inc.'
+✅ SQL query succeeded!
+```
+
+---
+
+### Screenshot 3: Conversation Memory - Statefulness
+
+**Follow-up Question:** "Compare it to Microsoft's"
+
+![Statefulness](screenshots/statefulness.png)
+
+**Features Demonstrated:**
+- ✅ **Conversation Memory:** System remembers "it" refers to Apple's revenue from previous question
+- ✅ **Context Understanding:** Correctly interprets "Microsoft's" as "Microsoft's revenue"
+- ✅ **Comparison Query:** Generates SQL comparing both companies
+- ✅ **Natural Language:** Provides comparative analysis in readable format
+
+**Terminal Output:**
+```bash
+🧭 Route: SQL
+📝 Reasoning: Follow-up question about comparison, using conversation context
+🔄 Executing SQL path...
+🔍 Generated SQL: SELECT company_name, revenue_2023_billions FROM financial_data
+WHERE company_name IN ('Apple Inc.', 'Microsoft Corporation')
+✅ SQL query succeeded!
+```
+
+---
+
+### Screenshot 4: RAG Query - Document Retrieval
+
+**Question:** "What are Microsoft's AI initiatives?"
+
+![RAG Query](screenshots/rag_query.png)
+
+**Features Demonstrated:**
+- ✅ **Automatic Routing:** System correctly routes to document search (RAG)
+- ✅ **Vector Search:** Retrieves relevant chunks from 1,150 document chunks in ChromaDB
+- ✅ **Strategic Insights:** Provides qualitative information not available in structured data
+- ✅ **Source Attribution:** Shows which documents were used (microsoft.txt)
+
+**Terminal Output:**
+```bash
+🧭 Route: RAG
+📝 Reasoning: Question requires qualitative insights from documents
+📚 Executing RAG path...
+🔍 Retrieving relevant chunks for: What are Microsoft's AI initiatives?
+✅ Retrieved 3 relevant chunks
+✅ RAG query succeeded!
+```
+
+---
+
+### Terminal Initialization Output
+
+**System Startup (showing all components working):**
 
 ```bash
-$ python test_chatbot.py
+$ streamlit run app.py
 
-Initializing components...
 ✅ Loaded data from ./data/financial_data.csv
 📊 Database contains 7 companies
 🔄 Loading embedding model (this may take a minute on first run)...
@@ -92,126 +174,36 @@ Initializing components...
 ✅ Initialized Gemini model: gemini-2.0-flash
 💬 Chat session started
 ✅ Financial Chatbot initialized successfully!
+
+  You can now view your Streamlit app in your browser.
+  Local URL: http://localhost:8501
 ```
 
-**Components Verified:**
-- ✅ DuckDB database loaded (7 companies)
-- ✅ ChromaDB vector store built (1150 document chunks)
-- ✅ Embedding model loaded (sentence-transformers)
-- ✅ LLM handler initialized (Gemini 2.0 Flash)
-- ✅ Chatbot orchestrator ready
+**Components Initialized:**
+- ✅ DuckDB database with 7 companies
+- ✅ ChromaDB vector store with 1,150 chunks
+- ✅ sentence-transformers embedding model
+- ✅ Google Gemini 2.0 Flash LLM
+- ✅ Conversation memory enabled
 
 ---
 
-#### Test 2: SQL Query - Revenue Retrieval
+### Additional Features (Not Shown in Screenshots)
 
-```bash
-============================================================
-TEST 1: SQL Query
-============================================================
+**Error Handling:**
+- SQL retry logic (3 attempts with error feedback)
+- User-friendly error messages
+- Graceful handling of missing data
 
-============================================================
-Question: What is Apple's revenue?
-============================================================
-🧭 Route: SQL
-📝 Reasoning: Question requires structured numerical data from database
+**Routing Logic:**
+- Primary: LLM-based semantic routing
+- Fallback: Keyword matching
 
-🔄 Executing SQL path...
-🔍 Generated SQL: SELECT revenue_2023_billions FROM financial_data WHERE company_name = 'Apple Inc.'
-✅ SQL query succeeded!
-Answer: Apple's revenue for 2023 was $383.29 billion.
-Route: sql
-Success: True
-```
 
-**Features Demonstrated:**
-- ✅ Automatic routing to SQL (correct decision)
-- ✅ Text-to-SQL generation (generated correct query)
-- ✅ Query execution (returned correct result: $383.29B)
-- ✅ Natural language answer formatting
-- ✅ Source traceability (SQL query shown)
-
----
-
-#### Test 3: RAG Query - Strategic Insights
-
-```bash
-============================================================
-TEST 2: RAG Query
-============================================================
-
-============================================================
-Question: What are Microsoft's AI initiatives?
-============================================================
-🧭 Route: RAG
-📝 Reasoning: Question requires qualitative insights from documents
-
-📚 Executing RAG path...
-🔍 Retrieving relevant chunks for: What are Microsoft's AI initiatives?
-✅ Retrieved 3 relevant chunks
-✅ RAG query succeeded!
-Answer: Microsoft's AI initiatives include the intelligent data platform, which
-integrates operational databases, analytics, and governance. They also introduced
-Microsoft Fabric, unifying compute storage and governance...
-Route: rag
-Success: True
-```
-
-**Features Demonstrated:**
-- ✅ Automatic routing to RAG (correct decision)
-- ✅ Vector search (retrieved 3 relevant chunks from 1150 total)
-- ✅ Document-based answer generation
-- ✅ Source traceability (document sources available)
-
----
-
-### Why No Screenshots?
-
-During development and testing (Dec 26-27, 2024), I exhausted the Google Gemini API free tier quota:
-- **Testing iterations:** 100+ API calls across multiple test sessions
-- **Multiple accounts tried:** Google's anti-abuse system flagged the device after creating multiple test accounts
-- **Quota limit:** All new accounts show "limit: 0" due to device fingerprinting
-- **Reset time:** Quotas reset at midnight Pacific Time (after assignment deadline)
-
-The terminal output above is **actual proof** that the system works correctly. All assignment requirements are fully implemented and functional.
-
----
-
-### To Evaluate This Project:
-
-**Option 1 (Recommended): Test with Your Own API Key**
-1. Replace the API key in `.env` file with your own Google Gemini key
-2. Get free key from: https://aistudio.google.com/app/apikey
-3. Run: `streamlit run app.py`
-4. Test with questions from `TEST_QUESTIONS.md`
-
-**Option 2: Review Code Architecture**
-- All features are fully implemented and documented
-- See `ARCHITECTURE.md` for detailed technical design
-- See `TEST_QUESTIONS.md` for comprehensive test scenarios
-- Code is production-ready and follows best practices
-
-**Option 3: Review Terminal Test Output**
-- The terminal output above proves all components work
-- Database queries execute correctly
-- RAG retrieval functions properly
-- Routing logic makes correct decisions
-- Error handling is implemented
-
----
-
-### Technical Verification
-
-The following files contain complete, working implementations:
-- `src/router.py` - LLM-based routing with keyword fallback (lines 37-100)
-- `src/sql_query_generator.py` - Text-to-SQL with 3-attempt retry logic (lines 36-218)
-- `src/rag_answer_generator.py` - Document retrieval and answer generation (lines 20-90)
-- `src/chatbot.py` - Main orchestrator coordinating all components (lines 15-150)
-- `src/llm_handler.py` - Gemini API handler with conversation memory (lines 20-200)
-- `src/database.py` - DuckDB wrapper for SQL operations (lines 10-80)
-- `src/rag_pipeline.py` - ChromaDB vector store with HNSW indexing (lines 25-200)
-
-**All assignment requirements are met and functional** - only blocked by external API quota restrictions
+**Traceability:**
+- SQL queries shown in "View Sources"
+- Document citations for RAG responses
+- Row counts and metadata displayed
 
 ---
 
@@ -243,7 +235,7 @@ Respond with ONLY: "SQL" or "RAG"
 - Identifies if question needs numbers (SQL) or insights (RAG)
 - Returns routing decision
 
-**Accuracy**: ~95% in testing
+**Future Improvement**: Send history of past routing decisions for better context
 
 #### Layer 2: Keyword Fallback (Backup)
 
@@ -658,16 +650,7 @@ If confidence < 0.8 → query both sources
 
 ---
 
-## Questions for Reviewer
 
-If you'd like me to clarify any design decisions or demonstrate specific functionality, please let me know! I'm happy to:
-- Walk through the routing logic
-- Explain error handling approach
-- Demonstrate extensibility
-- Discuss trade-offs made
+**Submission Date**: 28 December 2025
 
----
-
-**Submission Date**: December 26, 2024
-**Estimated Development Time**: ~14 hours
-**Lines of Code**: ~1,500 (excluding comments/docs)
+[Raymond Harrison](https://raymondharrison.netlify.app)
